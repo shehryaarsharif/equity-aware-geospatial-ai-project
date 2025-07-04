@@ -8,7 +8,7 @@ import streamlit.components.v1 as components
 import time
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'index_travel_accessibility')))
-from travel_time_and_centroid import get_hospital_df
+
 
     
 st.set_page_config(page_title="Equity-Aware Geospatial AI Dashboard", layout="wide")
